@@ -2,7 +2,7 @@ import pandas as pd
 
 num_attributes = 6
 a =[]
-df = pd.read_csv('FindSDataset.csv', header=None)
+df = pd.read_csv('Datasets/FindSDataset.csv', header=None)
 a = df.values.tolist()
 
 print("The given Dataset:")
