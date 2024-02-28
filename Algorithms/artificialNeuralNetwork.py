@@ -6,7 +6,7 @@ X = X/ np.amax(X, axis=0)
 y = y/100
 
 def sigmoid(x):
-    return x/(1+np.exp(-x))
+    return 1/(1+np.exp(-x))
 
 def derivatives_sigmoid(x):
     return x*(1-x)
